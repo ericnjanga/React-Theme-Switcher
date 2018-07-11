@@ -11,6 +11,6 @@ Users have the possibility to switch the application's theme (light or dark).
 
 
 ### Developer
-[Eric Njanga] (http://ericnjanga.com)
-- [LinkedIn] (https://www.linkedin.com/in/ericanjanga/)
-- [Medium] (https://medium.com/@eric.njanga)
+[Eric Njanga](http://ericnjanga.com)
+- [LinkedIn](https://www.linkedin.com/in/ericanjanga/)
+- [Medium](https://medium.com/@eric.njanga)
