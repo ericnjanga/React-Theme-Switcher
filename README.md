@@ -6,7 +6,7 @@ Users have the possibility to switch the application's theme (light or dark). Th
 
 ## How it works
 - Two objects describing "light" and "dark" styling are saved in a "settings" file which exports a "ThemeContext" object initialized with one of the objects `const ThemeContext = React.createContext(themeStyle.dark)`. 
-- `ThemeContext` is "provided" to the entire application by wrapping the root component with a `ThemeContext Provider`, `<ThemeContext.Provider value={this.state.theme}>...</ThemeContext.Provider>` initialize it with a default theme (saved in the state)
+- `ThemeContext` is "provided" to the entire application by wrapping the root component with a `ThemeContext Provider`, `<ThemeContext.Provider value={this.state.theme}>...</ThemeContext.Provider>` which is initialized it with a default theme value (saved in the state)
 - `ThemeContext` is "consumed" by all components of the application `(<ThemeContext.Consumer> ... </<ThemeContext.Consumer>)`
 
 
