@@ -1,15 +1,15 @@
 import React from 'react';
 import ThemeContext from './../../settings.js';
 
-const Footer = () => {
-  
+const AppContainer = (props) => {
+
   return (
     <ThemeContext.Consumer>
       {
         theme => (
-          <footer className="container" style={theme.footer}>
-            <p style={theme.article.text}>&copy; Company 2018</p>
-          </footer>
+          <div style={theme.mainContainer}>
+            {props.children}
+          </div>
         )
       }
     </ThemeContext.Consumer>
@@ -17,4 +17,4 @@ const Footer = () => {
 
 };
 
-export default Footer;
+export default AppContainer;
