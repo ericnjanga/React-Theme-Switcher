@@ -1,6 +1,12 @@
 import React from 'react';
 import ThemeContext , { themeStyle } from './../../settings.js';
 
+/**
+ * - Article
+ * - Use theme context to apply current theme style on:
+ * -- text color
+ * -- Button color class
+ */
 const Article = () => {
 
   return (

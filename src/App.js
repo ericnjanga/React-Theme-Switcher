@@ -8,15 +8,12 @@ import Footer from './components/Footer/Footer.js';
 import ThemeContext , { themeStyle } from './settings.js';
 
 
-
-
-
 class App extends Component {
 
   constructor(props) {
     super(props);
 
-
+    // Setup default theme (styling the whole app) and opposite theme (preview alternate theme to uers)
     this.state = {
       theme: themeStyle.light,
       oppositeTheme : themeStyle.dark,
@@ -25,7 +22,9 @@ class App extends Component {
     this.toggleTheme = this.toggleTheme.bind(this);
   }
 
-
+  /**
+   * Toggle theme and opposite theme objects
+   */
   toggleTheme() {
     this.setState(state => ({
       theme: (state.theme === themeStyle.dark) ? themeStyle.light : themeStyle.dark,
@@ -40,9 +39,7 @@ class App extends Component {
         <AppContainer>
           <ThemeSwitcher {...this.state} onClick={this.toggleTheme} />
           <div>
-            {/* <Navbar /> */}
-
-
+            <Navbar />
 
             <main role="main">
               <Hero />

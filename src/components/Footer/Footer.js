@@ -1,6 +1,12 @@
 import React from 'react';
 import ThemeContext from './../../settings.js';
 
+/**
+ * - Footer
+ * - Use theme context to apply current theme style on:
+ * -- container border color
+ * -- text color
+ */
 const Footer = () => {
   
   return (

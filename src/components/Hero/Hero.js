@@ -1,6 +1,13 @@
 import React from 'react';
 import ThemeContext from './../../settings.js';
 
+/**
+ * - Hero
+ * - Use theme context to apply current theme style on:
+ * -- container background color
+ * -- text color
+ * -- button color class
+ */
 const Hero = () => {
   
   return (

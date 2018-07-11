@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * App Settings
+ * - themeStyle
+ * - ThemeContext
+ */
 
 export const themeStyle = {
   light: { 
@@ -12,6 +17,9 @@ export const themeStyle = {
       height: '100vh',
       overflowY: 'scroll',
       backgroundColor: '#fff',
+    },
+    navbar: {
+      theme: 'dark',
     },
     btnThemeSwitch: {
       className: 'btn-dark',
@@ -43,6 +51,9 @@ export const themeStyle = {
       overflowY: 'scroll',
       backgroundColor: '#333',
     },
+    navbar: {
+      theme: 'light',
+    },
     btnThemeSwitch: {
       className: 'btn-light',
     },
@@ -67,7 +78,5 @@ export const themeStyle = {
 // Make sure the shape of the default value passed to
 // createContext matches the shape that the consumers expect!
 const ThemeContext = React.createContext(themeStyle.dark);
-
-console.log('>>>ThemeContext=', ThemeContext);
 
 export default ThemeContext;

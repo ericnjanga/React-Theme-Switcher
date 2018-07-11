@@ -10,6 +10,12 @@ const style = {
   },
 }
 
+/**
+ * - Preview next theme to use
+ * - Pass parent click handle function down to button
+ * - Use theme context to apply current theme style on:
+ * -- Button color class
+ */
 const ThemeSwitcher = (props) => {
 
   return (
