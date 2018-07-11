@@ -1,3 +1,5 @@
+
+# Theme Switcher
 Example usage of `dynamic context` in an React application. 
 
 
