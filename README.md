@@ -1,8 +1,8 @@
-Dynamic usage of "context" in an React application. 
+Example usage of `dynamic context` in an React application. 
 
 
 ## The Concept
-Users have the possibility to switch the application's theme (light or dark).
+Users have the possibility to switch the application's theme (light or dark). The layout is based on [Twitter's Bootstrap Jumbotron template](http://getbootstrap.com/docs/4.1/examples/jumbotron/#).
 
 ## How it works
 - Two objects describing "light" and "dark" styling are saved in a "settings" file which exports a "ThemeContext" object initialized with one of the objects `const ThemeContext = React.createContext(themeStyle.dark)`. 
